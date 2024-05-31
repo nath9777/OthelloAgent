@@ -33,8 +33,8 @@ Alpha-Beta Pruning: This technique is used to eliminate branches in the game tre
 
 
 # Heuristic /Evaluation Function
-This heuristic considers both the positional value of the player's pieces and their interaction with empty spaces. 
-Positional Advantage: Pieces in the corners and edges are scored higher because they are generally more advantageous positions.
-Piece Interaction: I take a difference between External pieces (adjacent to empty spaces) and Internal pieces (surrounded by other pieces) to give a higher weightage to moves with more empty spaces adjacent.
-Combining these 2 gives a comprehensive heuristic.
+* This heuristic considers both the positional value of the player's pieces and their interaction with empty spaces. 
+> Positional Advantage: Pieces in the corners and edges are scored higher because they are generally more advantageous positions.
+> Piece Interaction: I take a difference between External pieces (adjacent to empty spaces) and Internal pieces (surrounded by other pieces) to give a higher weightage to moves with more empty spaces adjacent.
+> Combining these 2 gives a comprehensive heuristic.
 
